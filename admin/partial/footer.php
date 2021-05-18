@@ -1,7 +1,7 @@
  <!-- Footer Section -->
  <div class="footer">
     <div class="wrapper">
-     <p class="center"> 2021 all right reserved, devoloped bt kiran</p> 
+     <p class="center"> 2021 all right reserved, devoloped by kiran</p> 
     </div>
   </div>
 

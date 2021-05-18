@@ -5,8 +5,14 @@
      <h1>Manage Food</h1>
      <br>
      <!-- Button -->
-     <a href="#" class="btn-color">Add admin</a>
+     <a href="<?php echo SITEURL ?>admin/add-food.php" class="btn-color">Add food</a>
      <br><br><br>
+     <?php
+         if(isset($_SESSION['add'])){
+           echo $_SESSION['add'];
+           unset($_SESSION['add']);
+         }
+     ?>
      <table class="tbl-full">
       <tr>
         <th>S.N</th>
@@ -55,7 +61,6 @@
      
     </div>
   </div>
-
 
   <!-- End of Main Section -->
 
